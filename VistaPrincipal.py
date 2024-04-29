@@ -4,9 +4,9 @@ Versión 1
 '''
 
 # Bibliotecas
-import psycopg2
-import pandas as pd
-import sys
+import psycopg2         #Utilizada para conectar Python con una base de datos PostgreSQL.
+import pandas as pd     #Biblioteca de manipulación y análisis de datos. 
+import sys              #Utilizada aquí probablemente para manejar la salida del sistema o errores.
 
 import tkinter as tk
 import tkinter as tk
@@ -17,7 +17,7 @@ from tkinter import simpledialog
 from tkinter import filedialog
 from tkinter import Label, ttk
 from psycopg2 import Binary
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk  #Pil se usa para mabnejo de imagenes en py
 from io import BytesIO
 
 # Clase principal
